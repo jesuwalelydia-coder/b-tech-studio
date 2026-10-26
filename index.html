@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>BTECH Studio — Creative Developer</title>
+
+     <!-- FAVICON -->
+    <link
+        rel="icon"
+        type="image/png"
+        href="img/Btech.png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+
+    >
+    <link
+    href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;800;900&display=swap"
+    rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="site-header">
+
+    <a href="#home" class="logo">
+        BTECH STUDIO
+    </a>
+
+
+    <nav class="nav-pill">
+
+        <a href="#about">
+            ABOUT
+        </a>
+
+        <a href="#projects">
+            PROJECTS
+        </a>
+
+        <a href="#contact">
+            CONTACT
+        </a>
+
+    </nav>
+
+
+    <a
+        href="#contact"
+        class="contact-btn"
+    >
+        GET IN TOUCH
+    </a>
+
+</header>
+
+
+
+<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section
+    class="hero"
+    id="home"
+>
+
+    <!--
+        No controls.
+        No play button.
+        Muted so browser allows autoplay.
+    -->
+
+    <video
+        class="hero-video"
+        id="heroVideo"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        disablepictureinpicture
+    >
+        <source
+            src="video/nexa hero.mp4"
+            type="video/mp4"
+        >
+    </video>
+
+
+    <!-- makes left text easier to read -->
+    <div class="hero-overlay"></div>
+
+
+    <div class="hero-copy">
+
+        <p class="hero-label">
+            CREATIVE DEVELOPER
+        </p>
+
+
+        <h1>
+
+            <span>BTECH</span>
+
+            <span>STUDIO</span>
+
+        </h1>
+
+
+        <div class="developer-sticker">
+            WEB DEVELOPER
+        </div>
+
+
+        <p class="hero-description">
+
+            I design and build modern digital
+            experiences through clean development,
+            thoughtful interfaces and interactive
+            storytelling.
+
+        </p>
+
+    </div>
+
+
+    <div class="hero-bottom">
+
+        <span>
+            © 2026BTECH STUDIO
+        </span>
+
+        <span>
+            SCROLL TO EXPLORE ↓
+        </span>
+
+        <span>
+            DIGITAL STUDIO
+        </span>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT / ELEVATOR SCANNER
+===================================================== -->
+
+<section
+    class="scan-section"
+    id="about"
+>
+
+
+    <!-- background grid -->
+
+    <div class="scan-grid"></div>
+
+    <div class="scan-particles"></div>
+
+
+    <div class="scan-stage">
+
+
+        <!-- LEFT PROFILE -->
+
+        <div class="scan-card profile-card">
+
+            <h3>
+                BTECH
+            </h3>
+
+            <p>
+                Creative Developer
+            </p>
+
+        </div>
+
+
+        <div class="connector profile-connector"></div>
+
+
+        <!-- LEFT DESCRIPTION -->
+
+        <div class="scan-card about-card">
+
+            <p>
+
+                I build responsive,
+                interactive digital experiences
+                that combine clean development
+                with thoughtful visual design.
+
+            </p>
+
+        </div>
+
+
+        <div class="connector about-connector"></div>
+
+
+
+        <!-- =========================
+             ELEVATOR
+        ========================== -->
+
+        <div
+            class="elevator-wrap"
+            id="elevatorWrap"
+        >
+
+            <img
+                src="img/Nexa ele.png"
+                alt="BTECH developer inside futuristic scanner"
+                class="elevator-image"
+            >
+
+
+            <!-- scanning beam -->
+
+            <div
+                class="scan-line"
+                id="scanLine"
+            ></div>
+
+
+            <!-- glow -->
+
+            <div class="scan-flash"></div>
+
+        </div>
+
+
+
+        <!-- RIGHT SKILLS -->
+
+        <div class="scan-card skills-card">
+
+            <h3>
+                What I Do
+            </h3>
+
+            <ul>
+
+                <li>
+                    Web Development
+                </li>
+
+                <li>
+                    UI / UX Design
+                </li>
+
+                <li>
+                    Responsive Websites
+                </li>
+
+                <li>
+                    Frontend Development
+                </li>
+
+                <li>
+                    Interactive Experiences
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="connector skills-connector"></div>
+
+
+
+        <!-- SCAN COMPLETE MESSAGE -->
+
+        <div
+            class="scan-complete"
+            id="scanComplete"
+        >
+
+            <span class="complete-dot"></span>
+
+            SCAN COMPLETE
+
+        </div>
+
+
+
+        <!-- ARROW / MESSAGE -->
+
+        <div
+            class="discover-popup"
+            id="discoverPopup"
+        >
+
+            <span class="discover-arrow">
+                ↓
+            </span>
+
+            <span>
+                EXPLORE MY WORK
+            </span>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section class="projects-section" id="projects">
+
+    <div class="projects-container">
+
+        <!-- SMALL HEADING -->
+        <div class="projects-heading">
+
+            <span class="selected-badge">
+                SELECTED
+            </span>
+
+            <h2>Projects</h2>
+
+        </div>
+
+
+        <!-- PROJECT GRID -->
+        <div class="project-showcase-grid">
+
+
+            <!-- PROJECT 01 -->
+            <a
+                href="https://roselinekitchen.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="showcase-project"
+            >
+
+                <div class="showcase-image">
+
+                    <img
+                        src="img/Roseline Kitchen 1.PNG"
+                        alt="Roseline Kitchen website"
+                    >
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="showcase-info">
+
+                    <h3>
+                        Roseline Kitchen
+                    </h3>
+
+                    <p>
+                        Restaurant website
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- PROJECT 02 -->
+            <a
+                href="https://nextgenconstruction.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="showcase-project"
+            >
+
+                <div class="showcase-image">
+
+                    <img
+                        src="img/nextgencontruction.PNG"
+                        alt="NextGen Construction website"
+                    >
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="showcase-info">
+
+                    <h3>
+                        NextGen Construction
+                    </h3>
+
+                    <p>
+                        Construction website
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- PROJECT 03 -->
+            <a
+                href="https://skillhubuniversity.wuaze.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="showcase-project"
+            >
+
+                <div class="showcase-image">
+
+                    <img
+                        src="img/Skillhubuniversity 1.PNG"
+                        alt="SkillHub University website"
+                    >
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="showcase-info">
+
+                    <h3>
+                        SkillHub University
+                    </h3>
+
+                    <p>
+                        Education platform
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- START A PROJECT -->
+            <a
+                href="#contact"
+                class="showcase-project new-project-card"
+            >
+
+                <div class="new-project-box">
+
+                    <span class="plus">
+                        +
+                    </span>
+
+                </div>
+
+                <div class="showcase-info">
+
+                    <h3>
+                        Start a new project
+                    </h3>
+
+                    <p>
+                        Let's work together
+                    </p>
+
+                </div>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact-section" id="contact">
+
+    <!-- FULL CONTACT IMAGE -->
+    <img
+        src="img/contact.png"
+        alt="Nexaform developer"
+        class="contact-visual"
+    >
+
+
+    <!-- CONTACT CONTENT -->
+    <div class="contact-content">
+
+        <p class="contact-kicker">
+            HAVE A PROJECT?
+        </p>
+
+
+        <h2>
+            Let's work
+            <span>together!</span>
+        </h2>
+
+
+        <!-- SOCIAL BUTTONS -->
+        <div class="contact-socials">
+
+
+            <!-- EMAIL -->
+            <a
+                href="mailto:lydiajesuola@gmail.com"
+                class="social-circle"
+                aria-label="Email BTECH"
+            >
+                <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M3 5h18v14H3V5zm2 2v.6l7 5.2 7-5.2V7H5zm14 10V10l-7 5.1L5 10v7h14z"
+                    />
+                </svg>
+            </a>
+
+
+            <!-- GITHUB -->
+            <a
+                href="https://github.com/jesuwalelydia-coder"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-circle"
+                aria-label="GitHub"
+            >
+                <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49v-1.72c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .08 1.53 1.06 1.53 1.06.9 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.64-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0112 6.96a9.3 9.3 0 012.5.35c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.2 10.2 0 0022 12.23C22 6.58 17.52 2 12 2z"
+                    />
+                </svg>
+            </a>
+
+
+            <!-- LINKEDIN -->
+            <a
+            href="https://www.linkedin.com/in/lydia-jesuwale-aa0057445?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-circle linkedin-circle"
+                aria-label="LinkedIn"
+            >
+                in
+            </a>
+
+
+            <!-- X -->
+            <a
+                href="https://x.com/ladybtech"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-circle x-circle"
+                aria-label="X"
+            >
+                X
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- SMALL FOOT -->
+    <div class="contact-small-text">
+        AVAILABLE FOR SELECT PROJECTS
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-brand">
+
+        <strong>
+            BTECH STUDIO
+        </strong>
+
+        <p>
+            Creative development and
+            interactive web experiences.
+        </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <a href="#home">
+            HOME
+        </a>
+
+        <a href="#about">
+            ABOUT
+        </a>
+
+        <a href="#projects">
+            PROJECTS
+        </a>
+
+        <a href="#contact">
+            CONTACT
+        </a>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 BTECH STUDIO
+        </span>
+
+        <span>
+            BUILT WITH CARE.
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     GSAP
+===================================================== -->
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js">
+</script>
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js">
+</script>
+
+
+
+<!-- LENIS -->
+
+<script
+    src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js">
+</script>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
